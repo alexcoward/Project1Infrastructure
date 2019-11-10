@@ -13,12 +13,13 @@ This establishes the following:
 
 ## Dependencies
 
-An AWS account along with the associated credentials and an [S3 backend resource](https://github.com/alexcoward/Project1Infrastructure/tree/master/terraform/SetupTerraformBackend). 
+An AWS account along with the associated credentials and an [S3 backend resource](https://github.com/alexcoward/Project1Infrastructure/tree/master/terraform/SetupTerraformBackend).
+Permissions in AWS allowing VPCFullAccess. 
 Terraform installed locally. 
 
 ## Installation
 
-Replace the variable defaults with your preferred setup. Run terraform plan and then apply. Optionally, first create a new directory for all three files depending on the file layout your prefer. If creating a new directory, be sure to change the key for the backend resource. 
+Replace the variable defaults with your preferred setup. Change directory into Project1Infrastructure/terraform/VPC. Be sure to change the bucket and dynamodb table names. Run terraform init. Then run terraform plan and then terraform apply.  
 
 ## Inputs
 

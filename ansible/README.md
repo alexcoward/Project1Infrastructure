@@ -29,7 +29,7 @@ Terraform installed locally.
 - Modify the hosts file with the private IP addresses of both servers, server1 ansible_host=PRIVATE.IP.ADDRESS
 - Push or pull modified host file into master branch
 - In the jail.local file update the destemail, sender, and sendername
-- Push or pull modified host file into master branch
+- Push or pull modified jail.local file into master branch
 - Run the Ansible playbook with the following command, mssh ubuntu@[INSTANCE ID OF BASTION] "bash -s" < ~/Desktop/execute_playbook.sh
 
 ## Contributing
