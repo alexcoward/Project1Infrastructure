@@ -19,7 +19,7 @@ Terraform installed locally.
 
 ## Installation
 
-Run terraform plan and then apply. Optionally, first create a new directory for all the files depending on the file layout your prefer. If creating a new directory, be sure to change the key for the backend resource. 
+Change directory into Project1Infrastructure/terraform/LAMBDA. Be sure to change the bucket and dynamodb table names. Run terraform init. Then run terraform plan and then terraform apply.  
 
 ## Contributing
 

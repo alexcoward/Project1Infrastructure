@@ -11,8 +11,7 @@ Terraform installed locally.
 
 ## Installation
 
-If not cloning the repo, create a directory with the main.tf file. Run terraform apply. This creates the bucket and lock.
-Next, add the following to the top of the file:
+Clone the repo. Change directory into Project1Infrastructure/terraform/SetupTerraformBackend. Be sure to change the bucket and dynamodb table names. Run terraform init. Then run terraform plan and then terraform apply. This creates the bucket and lock. Next, add the following to the top of the file:
 
     terraform {
     backend  "s3" {
@@ -23,7 +22,7 @@ Next, add the following to the top of the file:
      }
     }
     
-Run terraform apply to apply the changes.
+Again, run terraform init, then terraform plan, and lastly terraform apply.
 
 ## Contributing
 
