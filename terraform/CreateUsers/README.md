@@ -11,12 +11,12 @@ This establishes the following in IAM:
 ## Dependencies
 
 An AWS account along with the associated credentials and an [S3 backend resource](https://github.com/alexcoward/Project1Infrastructure/tree/master/terraform/SetupTerraformBackend). 
-Permissions in AWS allowing IAMFullAccess and AmazonS3FullAccess.
+Permissions in AWS allowing IAMFullAccess.
 Terraform installed locally.
 
 ## Installation
 
-Change the usernames in variable.tf to your preferred users. Run terraform plan and then apply. Optionally, first create a new directory for all three files depending on the file layout your prefer. If creating a new directory, be sure to change the key for the backend resource. 
+Change the usernames in variable.tf to your preferred users. Change directory into Project1Infrastructure/terraform/CreateUsers. Be sure to change the bucket and dynamodb table names. Run terraform init. Then run terraform plan and then terraform apply. 
 
 ## Inputs
 

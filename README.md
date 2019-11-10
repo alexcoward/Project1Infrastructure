@@ -28,6 +28,8 @@ Ansible installed in place (EC2 bastion)
 
 [Running the Terraform files to stand up the infrastructure](https://github.com/alexcoward/Project1/wiki/Terraform-Documentation)
 
+The terraform configurations run in the order of SetupTerraformBackend, CreateUsers, VPC, EC2, and LAMBDA.
+
 [Running the Ansible file in place (EC2 Server Environment) to stand up the web application](https://github.com/alexcoward/Project1/wiki/Ansible-Playbook-Documentation)
 
 ## Contributing
