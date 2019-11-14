@@ -37,6 +37,6 @@ aws ec2-instance-connect send-ssh-public-key --region us-west-2 --instance-id "$
 #cleanup
 rm -rf Project1Infrastructure/
 rm -f my_rsa_key
-rm -r my_rsa_key.pub
+rm -f my_rsa_key.pub
 #exit
 exit 0
